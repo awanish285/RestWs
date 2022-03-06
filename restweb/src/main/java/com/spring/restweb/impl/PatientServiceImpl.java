@@ -38,7 +38,7 @@ public class PatientServiceImpl implements PatientService {
 	public List<Patient> getPatinets() {
 		
 		Collection<Patient> results = patinets.values();
-		List<Patient> response = new ArrayList(results);
+		List<Patient> response = new ArrayList<Patient>(results);
 		return response;
 	}
 
