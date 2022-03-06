@@ -39,6 +39,14 @@ public class PatientServiceImpl implements PatientService {
 		List<Patient> response = new ArrayList(results);
 		return response;
 	}
+
+	@Override
+	public Patient getPatient(int id) {
+		
+		System.out.println("data: "+patinets.get(id));
+		
+		return patinets.get(id);
+	}
 	
 
 }
