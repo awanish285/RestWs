@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 import com.spring.restweb.model.Patient;
 import com.spring.restweb.services.PatientService;
 
+//this is patientServiceimpl class where we have write all the database realted activity
 
 @Service
 public class PatientServiceImpl implements PatientService {
@@ -33,7 +34,7 @@ public class PatientServiceImpl implements PatientService {
 		patient.setName("John");
 		patinets.put(patient.getId(), patient);
 	}
-
+    //this is the method to get all the patient
 	@Override
 	public List<Patient> getPatinets() {
 		
