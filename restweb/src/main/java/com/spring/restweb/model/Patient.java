@@ -2,6 +2,10 @@ package com.spring.restweb.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+//this is the model class ..
+
+//this is the XML form  @XmlRootElement  which is means what is the name of our xml root
+
 @XmlRootElement(name="Patinet")
 public class Patient {
 
