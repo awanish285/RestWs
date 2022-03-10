@@ -18,11 +18,11 @@ public interface PatientService {
 	@Path("/patients")
 	@GET
 	List<Patient> getPatinets();
-	
+	//this method is used to get the patients by id
 	@Path("/patients/{id}")
 	@GET
 	Patient getPatient(@PathParam(value = "id") int  id);
-	
+	//this method is used to create the  patients
 	@Path("/patients")
 	@POST
 	Response createPatients(Patient patients);
