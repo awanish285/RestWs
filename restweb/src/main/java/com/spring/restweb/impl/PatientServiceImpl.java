@@ -42,7 +42,7 @@ public class PatientServiceImpl implements PatientService {
 		List<Patient> response = new ArrayList<Patient>(results);
 		return response;
 	}
-
+     //this method is used to get  the patient data by id
 	@Override
 	public Patient getPatient(int id) {
 		
@@ -50,7 +50,7 @@ public class PatientServiceImpl implements PatientService {
 		
 		return patinets.get(id);
 	}
-
+    //this method is used to create the patient
 	@Override
 	public Response createPatients(Patient patients) {
 		patients.setId(++currentId);
