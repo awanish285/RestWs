@@ -93,3 +93,6 @@ How does data exchange between applications?
 
 Suppose, we have an Application A which create a request to access the web services. The web services offer a list of services. The web service process the request and sends the response to the Application A. The input to a web service is called a request, and the output from a web service is called response. The web services can be called from different platforms.
 
+
+There are two popular formats for request and response XML and JSON.
+
