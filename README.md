@@ -82,3 +82,14 @@ The web services must be able to fulfill the following conditions:
 The web service must be accessible over the internet.
 The web service is discoverable through a common mechanism like UDDI.
 It must be interoperable over any programming language or Operating System.
+
+
+Uses of Web Services
+Web services are used for reusing the code and connecting the existing program.
+Web services can be used to link data between two different platforms.
+It provides interoperability between disparate applications.
+
+How does data exchange between applications?
+
+Suppose, we have an Application A which create a request to access the web services. The web services offer a list of services. The web service process the request and sends the response to the Application A. The input to a web service is called a request, and the output from a web service is called response. The web services can be called from different platforms.
+
