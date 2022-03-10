@@ -65,3 +65,20 @@ It provides different data format like JSON, text, HTML, and XML.
 It is fast in comparison to SOAP because there is no strict specification like SOAP.
 These are reusable.
 They are language neutral.
+
+
+
+Web services are the types of internet software that uses standardized messaging protocol over the distributed environment. It integrates the web-based application using the REST, SOAP, WSDL, and UDDI over the network. For example, Java web service can communicate with .Net application.
+
+Features of web Services
+Web services are designed for application to application interaction.
+It should be interoperable.
+It should allow communication over the network.
+
+
+Components of Web Services
+The web services must be able to fulfill the following conditions:
+
+The web service must be accessible over the internet.
+The web service is discoverable through a common mechanism like UDDI.
+It must be interoperable over any programming language or Operating System.
