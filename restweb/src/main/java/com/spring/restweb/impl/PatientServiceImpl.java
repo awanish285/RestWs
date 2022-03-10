@@ -17,7 +17,7 @@ import com.spring.restweb.services.PatientService;
 
 @Service
 public class PatientServiceImpl implements PatientService {
-	
+	//this map is used to hold the patient data (behave like database)
 	Map<Integer,Patient> patinets=new HashMap<>();
 	int currentId=123;
 	//private ArrayList response;
@@ -26,7 +26,7 @@ public class PatientServiceImpl implements PatientService {
 	{
 		init();
 	}
-	
+	//this init() method is used to set patient name and id and put into the map
 	void init()
 	{
 		Patient patient=new Patient();
