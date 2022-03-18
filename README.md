@@ -38,8 +38,9 @@ this dependency is adding in pom.xml file after adding file in pom.xml file your
 1) It does not define the standard message exchange format. 
 2) We can build REST services with both XML and JSON. JSON is more popular format with REST. The key abstraction is a resource in REST. 
 3) A resource can be anything. It can be accessed through a Uniform Resource Identifier (URI). For example:
-
 4) The resource has representations like XML, HTML, and JSON. The current state capture by representational resource. When we request a resource, we provide the representation of the resource. The important methods of HTTP are:
+
+#HTTP Method:
 
 1) GET: It reads a resource.
 2) PUT: It updates an existing resource.
@@ -47,7 +48,7 @@ this dependency is adding in pom.xml file after adding file in pom.xml file your
 4) DELETE: It deletes the resource.
 
 
-
+================================================================================================================================================================
 
 
 #RESTful Service Constraints
@@ -59,7 +60,9 @@ The interface is uniform and exposing resources.
 The service should assume a layered architecture.
 
 
-Advantages of RESTful web services
+===========================================================================================================================================================================
+
+#Advantages of RESTful web services
 
 RESTful web services are platform-independent.
 It can be written in any programming language and can be executed on any platform.
