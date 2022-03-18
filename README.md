@@ -88,17 +88,19 @@ They are language neutral.
 
 
 #Components of Web Services
-The web services must be able to fulfill the following conditions:
 
-The web service must be accessible over the internet.
-The web service is discoverable through a common mechanism like UDDI.
-It must be interoperable over any programming language or Operating System.
+#The web services must be able to fulfill the following conditions:
 
+1) The web service must be accessible over the internet.
+2) The web service is discoverable through a common mechanism like UDDI.
+3) It must be interoperable over any programming language or Operating System.
 
-Uses of Web Services
-Web services are used for reusing the code and connecting the existing program.
-Web services can be used to link data between two different platforms.
-It provides interoperability between disparate applications.
+===================================================================================================================================================================
+#Uses of Web Services
+
+1) Web services are used for reusing the code and connecting the existing program.
+2) Web services can be used to link data between two different platforms.
+3) It provides interoperability between disparate applications.
 
 How does data exchange between applications?
 
