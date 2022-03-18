@@ -36,21 +36,21 @@ this dependency is adding in pom.xml file after adding file in pom.xml file your
 =======================================================================================================================================================
 
 1) It does not define the standard message exchange format. 
-We can build REST services with both XML and JSON. JSON is more popular format with REST. The key abstraction is a resource in REST. 
-A resource can be anything. It can be accessed through a Uniform Resource Identifier (URI). For example:
+2) We can build REST services with both XML and JSON. JSON is more popular format with REST. The key abstraction is a resource in REST. 
+3) A resource can be anything. It can be accessed through a Uniform Resource Identifier (URI). For example:
 
-The resource has representations like XML, HTML, and JSON. The current state capture by representational resource. When we request a resource, we provide the representation of the resource. The important methods of HTTP are:
+4) The resource has representations like XML, HTML, and JSON. The current state capture by representational resource. When we request a resource, we provide the representation of the resource. The important methods of HTTP are:
 
-GET: It reads a resource.
-PUT: It updates an existing resource.
-POST: It creates a new resource.
-DELETE: It deletes the resource.
-
-
+1) GET: It reads a resource.
+2) PUT: It updates an existing resource.
+3) POST: It creates a new resource.
+4) DELETE: It deletes the resource.
 
 
 
-RESTful Service Constraints
+
+
+#RESTful Service Constraints
 
 There must be a service producer and service consumer.
 The service is stateless.
