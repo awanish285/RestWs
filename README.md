@@ -53,11 +53,11 @@ this dependency is adding in pom.xml file after adding file in pom.xml file your
 
 #RESTful Service Constraints
 
-There must be a service producer and service consumer.
-The service is stateless.
-The service result must be cacheable.
-The interface is uniform and exposing resources.
-The service should assume a layered architecture.
+1) There must be a service producer and service consumer.
+2) The service is stateless.
+3) The service result must be cacheable.
+4) The interface is uniform and exposing resources.
+5) The service should assume a layered architecture.
 
 
 ===========================================================================================================================================================================
