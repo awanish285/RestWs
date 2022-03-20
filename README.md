@@ -27,6 +27,8 @@ this dependency is adding in pom.xml file after adding file in pom.xml file your
 		</dependency>
 		
 ================================================================================================================================================
+#REST
+
 1) REST stands for REpresentational State Transfer. 
 2) It is developed by Roy Thomas Fielding, who also developed HTTP. 
 3) The main goal of RESTful web services is to make web services more effective. 
@@ -74,7 +76,6 @@ this dependency is adding in pom.xml file after adding file in pom.xml file your
 =========================================================================================================================================================================================
 
 1) Web services are the types of internet software that uses standardized messaging protocol over the distributed environment. 
-
 2) It integrates the web-based application using the REST, SOAP, WSDL, and UDDI over the network. 
 3) For example, Java web service can communicate with .Net application.
 
@@ -102,12 +103,14 @@ this dependency is adding in pom.xml file after adding file in pom.xml file your
 2) Web services can be used to link data between two different platforms.
 3) It provides interoperability between disparate applications.
 
+
+===============================================================================================================================================================
+
 #How does data exchange between applications?
 
-1) Suppose, we have an Application A which create a request to access the web services. The web services offer a list of services. The web service process the request and sends the response to the Application A. The input to a web service is called a request, and the output from a web service is called response. The web services can be called from different platforms.
-
-
-2) There are two popular formats for request and response XML and JSON.
+1) Suppose, we have an Application A which create a request to access the web services. The web services offer a list of services. 
+2) The web service process the request and sends the response to the Application A. The input to a web service is called a request, and the output from a web service is called response. The web services can be called from different platforms.
+3) There are two popular formats for request and response XML and JSON.
 
 
 
